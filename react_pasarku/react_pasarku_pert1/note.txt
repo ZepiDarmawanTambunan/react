@@ -1,0 +1,12 @@
+- dibagian pertama = tes url dan koneksi dan buat table di database
+- npm init -y
+- npm install body-parser cors express fs joi momment multer mysql2 sequelize uuid --save
+- body parser = untuk get data dari form -> req.body
+- multer untuk handle upload file
+- sequelize untuk handle model
+- npm install nodemon --save-dev
+- in package.json => "start": "nodemon index.js"
+- dibawah ini life cycle pengerjaan nya
+- index -> app -> produk.controller -> routes/produk -> models -> config -> app
+- buat database di phpmyadmin
+- ctrl + s lagi di app.js untuk refresh server dan berhasil
